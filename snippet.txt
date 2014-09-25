@@ -1,0 +1,22 @@
+d3.selectAll('p').style('color', function(){
+	return "hsl("+Math.random()*360+",100%,50%";
+});
+
+-----
+
+d3.selectAll('p')
+.data([4,6,12,32,34])
+.style('font-size', function(d){
+	return d+'px';
+});
+
+-----------
+
+var p= d3.select('body').selectAll('p')
+	.data([4,42, 3, 21,43,42,41,40,39,38,37,36,35])
+	.text(String);
+
+
+
+
+p.exit().remove();
