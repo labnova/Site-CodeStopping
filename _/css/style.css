@@ -1,90 +1,99 @@
-body {
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
-    background-color: #000;
+@font-face {
+  src: url('../font/Modeka.otf');
+  font-family: 'Modeka';
 }
 
-canvas {
-    padding: 0;
-    margin: 0;
+
+
+table {
+    color:black;
+    border-collapse: collapse;
+    margin-bottom: 3em;
+    width: 100%;
+    background: #fff;
+}
+td, th {
+    padding: 0.75em 1.5em;
+    text-align: left;
+}
+  td.err {
+    background-color: #e992b9;
+    color: #fff;
+    font-size: 0.75em;
+    text-align: center;
+    line-height: 1;
+  }
+th {
+    background-color: #31bc86;
+    font-weight: bold;
+    color: #fff;
+    white-space: nowrap;
+}
+tbody th {
+  background-color: #2ea879;
+}
+tbody tr:nth-child(2n-1) {
+    background-color: #f5f5f5;
+    transition: all .125s ease-in-out;
+}
+tbody tr:hover {
+    background-color: rgba(129,208,177,.3);
+}
+
+
+.intro {
+  height: 700px;
+  width:auto;
 }
 
 body{
-  background:black;
-  font-family: 'Varela', sans-serif;
+  font-family: 'Modeka';
+  padding:50px;
+  background: black;
+  overflow: scroll;
+  color:white;
+  font-size:20px;
+  
 }
 
-.glitch{
-  color:white;
-  font-size:100px;
-  position:relative;
-  width:400px;
-  margin:0 auto;
+.stitched2 {
+  padding:10px;
+  
+  background-color:#FFB30F;
+  color:#2D4DD9;
+  font-size:1em;
+  font-weight: bold;
+  line-height:0.5em;
+  margin-bottom: 5%;
+  margin-top:5%;
+  border: 2px dashed #fff;
+  border-radius:20px;
+  box-shadow: 0 0 0 4px #FFB30F, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+  
+  text-shadow: -0.5px -0.5px #aa3030;
  
-}
-@keyframes noise-anim{
-  $steps:20;
-  @for $i from 0 through $steps{
-    #{percentage($i*(1/$steps))}{
-      clip:rect(random(70)+px,9999px,random(100)+px,0);
-      background-color:orange;
-    }
-  }
-}
-.glitch:after{
-  content:attr(data-text);
-  position:absolute;
-  left:2px;
-  text-shadow:-1px 0 red;
-  top:0;
-  color:white;
-  background:black;
-  overflow:hidden;
-  clip:rect(0,900px,0,0); 
-  animation:noise-anim 9s infinite linear alternate-reverse;
-}
+} 
 
-@keyframes noise-anim-2{
-  $steps:20;
-  @for $i from 0 through $steps{
-    #{percentage($i*(1/$steps))}{
-      clip:rect(random(100)+px,9999px,random(100)+px,0);
-    }
-  }
-}
-.glitch:before{
-  content:attr(data-text);
-  position:absolute;
-  left:-2px;
-  text-shadow:1px 0 blue; 
-  top:0;
-  color:white;
-  background:black;
-  overflow:hidden;
-  clip:rect(0,900px,0,0); 
-  animation:noise-anim-2 9s infinite linear alternate-reverse;
-}
+.stitched {
+  padding:20px;
+  text-align:center;
+  background-color:#FFB30F;
+  color:#2D4DD9;
+  font-size:5em;
+  font-weight: bold;
+  line-height:0.5em;
+  
+  border: 2px dashed #fff;
+  border-radius:20px;
+  box-shadow: 0 0 0 4px #FFB30F, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+  
+  text-shadow: -2px -1px #aa3030;
+ 
+} 
+
+.ted:after { background-size: 70px ;}
 
 
-.graticule {
-  fill: none;
-  stroke: #777;
-  stroke-width: .5px;
-  stroke-opacity: .5;
-}
 
-.land {
-  fill: #222;
-}
 
-.county-boundary {
-  fill: none;
-  stroke: #fff;
-  stroke-width: .5px;
-}
 
-.state-boundary {
-  fill: none;
-  stroke: #fff;
-}

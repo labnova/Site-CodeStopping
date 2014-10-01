@@ -1,11 +1,242 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="_/css/style.css">
+		<link rel="stylesheet" href="_/css/patternbolt.css">
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		 <script src="_/components/js/pb.js"></script>
 
 	</head>
 	<body>
-		<h1>CodeStopping</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad a aperiam ducimus doloremque dicta officiis commodi numquam aliquam cum voluptatem consequatur impedit sed ipsam explicabo temporibus, earum, asperiores voluptatibus ullam?</p>
-		<script src='_/js/script.js'></script>
+		<div class="intro">
+			<div class="stitched ted pb-pattern buseca-1"><h1>CodeStopping</h1></div>
+			<canvas id="canvas"></canvas>
+		</div>
+		
+		<div class="container">
+		<p>Un hackathon (anche conosciuto come hack day o hackfest) &egrave; un evento al quale partecipano, a vario titolo, esperti di diversi settori dell'informatica: sviluppatori di software, programmatori e grafici web. Un hackathon generalmente ha una durata variabile tra un giorno e una settimana.</p>
+
+		<p>Tra le finalit&agrave; che gli hackathon si propongono, oltre al tradizionale lavoro per la realizzazione di un software, c'&egrave; un numero crescente di esempi per i quali gli eventi assumono invece obiettivi didattici e sociali.
+		</p>
+		<p>Il termine nasce come la composizione di due termini: hack e marathon partendo proprio dal virtuosismo informatico promosso dagli hacker. La parola &egrave; "apparsa" nel 1999. Sono due gli appuntamenti che sono passati alla storia come primi hackathon: il termine, infatti, &egrave; stato coniato sia dagli sviluppatori del sistema operativo OpenBSD sia dall'ufficio marketing della Sun Mycrosystem per due meeting organizzati a pochi giorni di distanza senza che i promotori avessero alcun contatto.</p>
+		<p><span>l 4 giugno a Calgary dieci sviluppatori OpenBSD si sono riuniti per trovare nuove soluzioni che permettessero al sistema operativo di diventare pi&ugrave; sicuro e si potesse integrare con sistemi di crittografia.
+
+Ancora oggi su molte pagine che fanno riferimento alla storia dell'OpenBSD si "rivendica" la nascita degli hackathon.</span><span>Ma sempre nel 1999, dal 15 al 19 giugno, alla conferenza annuale JavaOne, John Gage ha lanciato la sfida per la creazione di un programma dedicato al Palm V per permettere al nuovo palmare di comunicare con altri device dello stesso tipo attraverso la porta a infrarossi, utilizzando il canale di internet. L'evento &egrave; stato battezzato "L'Hackathon".</span></p>
+	<div class="stitched2 ted pb-pattern buseca-1"><h2>Le competenze pi&ugrave; richieste</h2></div>
+			<table>
+					<thead>
+						<tr>
+							<th>Skill</th>
+							<th>Range</th>
+							<th>WebSite</th>
+							
+						</tr>
+					</thead>
+					<tbody>
+						<tr><td class="user-email">Puppet</td><td class="user-mobile">91%</td><td class="user-mobile">
+						<a href="http://puppetlabs.com/" target="_blank">http://puppetlabs.com/</a></td></tr>
+						<tr><td class="user-email">Cybersecurity</td><td class="user-phone">77%</td><td class="user-mobile">
+						<a href="http://en.wikipedia.org/wiki/Cyber_security_standards" target="_blank">en.wikipedia.org/wiki/Cyber_security_standards</a></td></tr>
+						<tr><td class="user-email">Big Data</td><td class="user-phone">56%</td><td class="user-mobile"><a href="http://en.wikipedia.org/wiki/Big_data" target="_blank">en.wikipedia.org/wiki/Big_data</a></td></tr>
+						<tr><td class="user-email">NoSQL</td><td class="user-phone">49%</td><td class="user-mobile"><a href="http://nosql-database.org/" target="_blank">nosql-database.org/</a></td></tr>
+						<tr><td class="user-email">Salesforce</td><td class="user-phone">43%</td><td class="user-mobile"><a href="http://www.salesforce.com/it/" target="_blank">www.salesforce.com/it/</a></td></tr>
+						<tr><td class="user-email">Hadoop</td><td class="user-phone">38%</td><td class="user-mobile"><a href="http://hadoop.apache.org/" target="_blank">hadoop.apache.org/</a></td></tr>
+						<tr><td class="user-email">JIRA</td><td class="user-phone">35%</td><td class="user-mobile"><a href="https://www.atlassian.com/software/jira" target="_blank">https://www.atlassian.com/software/jira</a></td></tr>
+						<tr><td class="user-email">Cloud</td><td class="user-phone">34%</td><td class="user-mobile"><a href="http://it.wikipedia.org/wiki/Cloud_computing" target="_blank">it.wikipedia.org/wiki/Cloud_computing</a></td></tr>
+						<tr><td class="user-email">Information Security</td><td class="user-phone">30%</td><td class="user-mobile"><a href="http://en.wikipedia.org/wiki/Information_security" target="_blank">en.wikipedia.org/wiki/Information_security</a></td></tr>
+						<tr><td class="user-email">Python</td><td class="user-phone">21%</td><td class="user-mobile"><a href="http://www.python.it/" target="_blank">www.python.it/</a></td></tr>
+						
+					</tbody>
+				</table>
+
+	<div class="stitched2 ted pb-pattern buseca-1"><h2>Sessioni in programma</h2></div>
+	<table id="schedule" border="0" cellspacing="0" cellpadding="0">
+      <thead>
+        <tr>
+          <th>
+            Time
+          </th>
+          <th>
+            Track 1
+          </th>
+
+        </tr>
+      </thead>
+      <tr class="common_event">
+        <td class="time">09:00 &ndash; 09:30</td>
+        <td><h4><a href="#" onclick="javascript:return(false);">Check-in</a></h4></td>
+      </tr>
+
+      <tr class="common_event">
+        <td class="time">09:30 &ndash; 09:45</td>
+        <td>
+            <h4><a href="#" onclick="javascript:return(false);">Presentazione GrUSP</a></h4>
+        </td>
+      </tr>
+	  
+      <tr class="common_event">
+        <td class="time">09:45 &ndash; 10:00</td>
+        <td>
+            <h4><a href="#" onclick="javascript:return(false);">Presentazione pugMi</a></h4>
+        </td>
+      </tr>
+
+      <tr class="common_event">
+        <td class="time">10:05 &ndash; 10:50</td>
+        <td>
+            <h4><a href="#" onclick="javascript:return(false);" rel="tooltip" title="In questo talk parleremo di User Stories e di come costruire un'applicazione web con Symfony2 cercando di colmare la distanza tra il team di sviluppo e gli altri team aziendali, andando a costruire, tramite esempi reali le specifiche dell'applicazione e costruendo un linguaggio unificato che permetta a tutti gli attori di essere parte del progetto. 
+Behat e Mink saranno i tool che integreremo nella nostra applicazione per controllare le nostre expectations!">Symfony2 & Specification by Examples</a></h4>
+            <a href="http://twitter.com/walterdalmut" title="Walter Dal Mut">Walter Dal Mut - @walterdalmut</a>
+        </td>
+      </tr>
+
+      <tr class="break">
+        <td class="time">10:50 &ndash; 11:05</td>
+        <td>
+          <h4><strong>Pausa</strong></h4>
+        </td>
+      </tr>
+
+      <tr class="common_event">
+        <td class="time">11:05 &ndash; 11:50</td>
+        <td>
+            <h4><a href="#"  onclick="javascript:return(false);" rel="tooltip"  title="Sogni di sviluppare il tuo SaaS, di poterlo gestire, curare, evolvere. Speri di attrarre nuovi utenti con funzionalità innovative, di offrire un servizio veloce e puntuale. Finalmente ti puoi concentrare sulla qualità del tuo prodotto. Poi una mattina ti svegli, hai un database da 50GB, modificare una colonna richiede 8 ore e ti ritrovi in trappola. Gioie e dolori delle applicazioni multi-tenant. In questo talk analizzeremo perché e come abbiamo suddiviso il database di un SaaS da circa 1 milione di utenti.
+Vedremo come aggiungere un parametro di selezione del db a tutti i comandi della console, come eseguire comandi in parallelo per ridurre i tempi di manutenzione, come aggiungere info di debug utilizzando gli eventi del framework, come gestire il caricamento delle fixtures, quali idee si sono rivelate vincenti e quali no.">SaaS con Symfony2, un caso *molto* concreto</a></h4>
+            <a href="http://twitter.com/ftassi" title="Francesco Tassi">Francesco Tassi - @ftassi</a>, <a href="http://twitter.com/madisoft" title="Matteo Moretti">Matteo Moretti - @madisoft</a>
+        </td>
+      </tr>
+
+
+      <tr class="common_event">
+        <td class="time">11:55 &ndash; 12:25</td>
+        <td>
+            <h4><a href="#"  onclick="javascript:return(false);" rel="tooltip" title="Spesso ci viene richiesto di aggiungere funzionalità di gestione di contenuti a progetti esistenti o di creare nuovi CMS adhoc: oggi il Symfony CMF è un'ottima scelta da cui partire.
+Non un CMS ma una decina di bundle con singole funzionalità tra cui scegliere e da comporre secondo le nostre esigenze.
+Routing dinamico, albero dei contenuti, gestione dei menù, documenti con PHPCR e media saranno i protagonisti del talk.
+Ma è così semplice quanto sembra? Composer basta? E il backend dov'è? Io uso MySQL e non Jackrabbit, posso utilizzare il CMF?
+Cercheremo di fugare i principali dubbi e vedremo come creare un semplice CMS.">Un CMS in 25 minuti</a></h4>
+            <a href="http://twitter.com/k3a" title="Manuel Baldassarri">Manuel Baldassarri - @k3a</a>
+        </td>
+      </tr>
+
+      <tr class="common_event">
+        <td class="time">12:30 &ndash; 13:15</td>
+        <td>
+            <h4><a href="#"  onclick="javascript:return(false);" rel="tooltip" title="Portare la complessità del dominio da modellare direttamente nelle entità, aiuta a semplificare e può essere una buona strada anche quando il dominio risulti, ad un primo sguardo, banale.
+
+Utilizzando Symfony2 e Doctrine2 è relativamente semplice implementare l'infrastruttura del nostro Domain Model scegliendo di volta in volta il compromesso che si ritiene migliore.
+
+Attraverso codici di esempio saranno affrontati questi argomenti:
+
+* Domain Modelling
+
+- Domain, Domain Model and Ubiquitous Language
+- Rich vs Anemic Model
+- Data, Behaviours and Object Status
+- Validation: invariants and user input
+- Plain PHP Fixtures
+- Repository pattern
+- Traverse and protect the collections
+- Be iterative using TDD
+
+* Doctrine
+
+- Mapping
+- Doctrine Repository
+- Renderer
+- Optimization
+
+* Symfony
+
+- Command, Command Handler and Use Case
+- Events
+- Forms
+- Command Validation
+
+* Trade Offs
+
+- Adapt the model after Persistence's implementation
+- Symfony Forms: entity type example
+- Autogenerated Id">Rich Domain Model with Symfony2 and Doctrine2</a></h4>
+            <a href="http://twitter.com/@_leopro_" title="Leonardo Proietti">Leonardo Proietti - @_leopro_</a>
+        </td>
+      </tr>
+
+      <tr class="break lunch">
+      <td class="time">13:15 &ndash; 14:30</td>
+
+        <td><h4><strong>Pranzo</strong></h4></td>
+      </tr>
+
+      <tr class="common_event">
+        <td class="time">14:30 &ndash; 15:00</td>
+        <td>
+            <h4><a href="#"  onclick="javascript:return(false);" rel="tooltip" title="La sezione Utilities di Facile.it ha recentemente riscritto il proprio applicativo interno utilizzando Ember.js con Ember Data che si appoggia a sua volta ad un WebService REST realizzato in PHP tramite Symfony2 full-stack e alcuni bundle messi a disposizione dall'ecosistema di Symfony per gestire Redis, ElasticSearch, ACL e quant'altro si è reso necessario.
+Durante la presentazione verranno discusse le motivazioni che hanno portato a scegliere ciascun componente, come è stato integrato all'interno dell'applicativo, in quali problematiche ci si è imbattuti e come sono state risolte.">Applicazioni con architetture distribuite in Symfony2</a></h4>
+            <a href="http://twitter.com/thinkindie" title="Matteo Galli">Matteo Galli - @thinkindie</a>
+        </td>
+      </tr>
+
+      <tr class="common_event">
+        <td class="time">15:05 &ndash; 15:35</td>
+        <td>
+            <h4><a href="#"  onclick="javascript:return(false);" rel="tooltip" title="Molti progetti PHP open source hanno adottato Symfony2 come base per la loro prossima versione, tra questi c'è anche il CMS Drupal (http://drupal.org).
+
+In questo talk vedremo come scrivere un modulo per Drupal8 in modo da sfruttare il più possibile il suo nuovo motore Symfony2, dall'integrazione con il service container alla gestione degli eventi, dal routing a Twig.
+
+Verrà usato come esempio il modulo webprofiler (http://drupal.org/project/webprofiler) per dimostrare come un bundle per Symfony2 possa essere trasformato in un modulo per Drupal8 e integrato facilmente nel sistema.
+">Come portare il profiler di Symfony2 in Drupal8</a></h4>
+            <a href="http://twitter.com/lussoluca" title="Luca Lusso">Luca Lusso - @lussoluca</a>
+        </td>
+      </tr>
+
+
+      <tr class="break">
+        <td class="time">15:35 &ndash; 16:00</td>
+        <td>
+          <h4><strong>Pausa</strong></h4>
+        </td>
+      </tr>
+
+
+      <tr class="common_event">
+        <td class="time">16:00 &ndash; 16:30</td>
+        <td>
+            <h4><a href="#"  onclick="javascript:return(false);" rel="tooltip" title="Una user story non è completa finché non è nelle mani di chi la deve usare. Solo da lì inizia a produrre valore, sia esso economico o sia feedback. Che si tratti di master, preview o production, con l’automazione delle build si possono evitare operazioni ripetitive, complesse, risparmiare tempo, ottenere interessanti metriche sul codice, tutto al fine di arrivare a poter rilasciare ogni poche ore (o, se volete, ogni volta che la build è verde!). Farlo in modo frequente è possibile anche con Symfony2. Mettiamo in pratica con un esempio una delle 12 pratiche di Extreme Programming: continuous delivery e integration tra git, bash, Jenkins e strumenti deploy.">Tanti "piccoli rilasci" con Symfony2</a></h4>
+            <a href="http://twitter.com/morafabio" title="Fabio Mora">Fabio Mora - @morafabio</a>
+        </td>
+      </tr>
+
+
+      <tr class="common_event">
+        <td class="time">16:35 &ndash; 17:05</td>
+        <td>
+            <h4><a href="#"  onclick="javascript:return(false);" rel="tooltip" title="Prima o poi ogni sviluppatore dovrà confrontarsi con la gestione dei premessi su un dato oggetto, limitando le interazioni possibili in base al concetto di possesso.
+
+Il layer di sicurezza di symfony apparentemente non copre questa specifica necessità se non mediante l'ACE (Access Control Engine), studiato sicuramente per necessità più complesse. Le ACL sono infatti uno strumento molto complesso, che viene spesso utilizzato per 1% del suo potenziale; il class-scope, l'object-scope, il class-field-scope e l'object-field-scope sono veramente necessari all'interno del nostro dominio?
+
+Con i voters possiamo regolare l'accesso ad una determinata azione su una risorsa a partire dall'effettivo possesso della stessa, senza utilizzare le ACL e quindi senza preoccuparci di performance e mantenibilità, senza prenderci carico della gestione di un sistema così complesso, sfruttando una delle gemme nascoste di Symfony2 e mantenendo l'attenzione esclusivamente sulla logica di dominio.">The Right to Vote(rs)</a></h4>
+            <a href="http://twitter.com/ClaudioSThought" title="Claudio D'Alicandro">Claudio D'Alicandro - @ClaudioSThought</a>
+        </td>
+      </tr>
+
+      <tr class="common_event">
+        <td class="time">17:10</td>
+        <td><h4><a href="#" title="">Chiusura</a></h4></td>
+      </tr>
+    </table>
+
+  </div>
+	<div class="stitched2 ted pb-pattern buseca-1"><h2>Dove siamo</h2>
+
+	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5692.477845562077!2d11.34210694716416!3d44.48977098755522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sit!2sit!4v1411723757846" width="600" height="450" frameborder="0" style="border:0"></iframe>
+	<div style="float:right; clear:none;">Piazza Maggiore, Bologna</div>
+
+
+	</div>
+		</div>
 	</body>
+	<footer>
+	<div class="stitched2 ted pb-pattern buseca-1">Informazioni di contatto</div>
+	</footer>
+	<script src='_/js/script.js'></script>
 </html>
